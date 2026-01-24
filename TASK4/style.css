@@ -1,0 +1,106 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f1ff;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    width: 380px;
+    margin: 40px auto;   
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+h2 {
+    text-align: center;
+    color: #4b3f72;
+    margin-top: 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.rules {
+    font-size: 0.75rem;
+    color: #555;
+    margin: 6px 0;
+    padding-left: 18px;
+}
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+#strength {
+    font-size: 0.85rem;
+    margin-top: 4px;
+}
+
+.radio-group {
+    margin-top: 5px;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 10px;
+    width: 60px;
+}
+
+.terms label {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    max-width: 300px;
+}
+
+.terms input[type="checkbox"] {
+    margin: 0;
+    margin-top: 2px;
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.terms span {
+    display: inline-block;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindSpace Registration</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <img src="images/lotus.webp" class="logo" alt="MindSpace Logo">
+    <h2>MindSpace Wellness Registration</h2>
+    <p class="subtitle">Create your Calm Space</p>
+
+    <form id="registerForm">
+
+        <label>Full Name</label>
+        <input type="text" id="name">
+        <span class="error" id="nameError"></span>
+
+        <label>Email</label>
+        <input type="text" id="email">
+        <span class="error" id="emailError"></span>
+
+        <label>Password</label>
+        <input type="password" id="password">
+
+        <ul class="rules">
+            <li>minimum 8 characters</li>
+            <li>at least one uppercase letter</li>
+            <li>at least one lowercase letter</li>
+            <li>at least one number</li>
+            <li>at least one special character</li>
+        </ul>
+
+        <span class="error" id="passwordError"></span>
+        <div id="strength"></div>
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob">
+        <span class="error" id="dobError"></span>
+
+        <label>Phone Number</label>
+        <input type="text" id="phone">
+        <span class="error" id="phoneError"></span>
+
+        <label>Wellness Goal</label>
+        <select id="goal">
+            <option value="">select your goal</option>
+            <option>Reduce stress</option>
+            <option>Improve focus</option>
+            <option>Better sleep</option>
+            <option>Mindfulness</option>
+        </select>
+
+        <label>Preferred Relaxation Time</label>
+        <div class="radio-group">
+            <input type="radio" name="time" value="morning"> Morning
+            <input type="radio" name="time" value="evening"> Evening
+            <input type="radio" name="time" value="night"> Night
+        </div>
+
+        <div class="terms">
+            <label>
+                <input type="checkbox" id="terms">
+                    <span> I agree to the terms and conditions </span>
+            </label>
+        </div>
+
+
+        <span class="error" id="termsError"></span>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.brand-title {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.brand-title span {
+    font-weight: 300;
+    color: #e6e1ff;
+}
+
+.tagline {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.header-line {
+    width: 60px;
+    height: 3px;
+    background-color: #e6e1ff;
+    margin: 15px auto 0;
+    border-radius: 10px;
+}
+
+.section-heading {
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.content-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+}
+
+.activity-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.activity-card {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.activity-card img {
+    height: 160px;
+    object-fit: cover;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    padding: 22px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+}
+
+.affirmation {
+    color: #6a5acd;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.never-give-up {
+    font-size: 1.6rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #d4af37;                 /* calm golden color */
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin-top: 5px;
+}
+
+.sidebar-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.quick-tips {
+    padding-left: 18px;
+}
+
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
