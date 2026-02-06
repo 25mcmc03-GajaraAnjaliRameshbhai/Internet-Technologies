@@ -15,7 +15,7 @@ type WeatherData = {
     };
 };
 
-const apiKey: string = "a28ef40cb43c62a37ee410ec0bf3580a";
+const apiKey: string = "b131446c40e1218d04742ec1a3ee29f7";
 
 const btn = document.getElementById("btn") as HTMLButtonElement;
 const output = document.getElementById("output") as HTMLDivElement;
