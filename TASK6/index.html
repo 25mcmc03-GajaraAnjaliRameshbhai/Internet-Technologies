@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MindSpace Planner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>MindSpace Planner</h1>
+    <p>Organize tasks gently, without pressure</p>
+</header>
+
+<main class="container">
+
+    <div class="task-input">
+        <input type="text" id="taskText" placeholder="Enter your task">
+        <input type="date" id="taskDate">
+
+        <select id="taskEnergy">
+            <option value="low">Low energy</option>
+            <option value="medium">Medium energy</option>
+            <option value="high">High energy</option>
+        </select>
+
+        <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <div class="filters">
+        <button class="filter-btn active" onclick="filterTasks('all', this)">All</button>
+        <button class="filter-btn" onclick="filterTasks('completed', this)">Completed</button>
+        <button class="filter-btn" onclick="filterTasks('pending', this)">Pending</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+</main>
+
+<footer>
+    <p>© 2026 MindSpace Planner</p>
+</footer>
+
+<!-- ✅ ONLY JS FILE -->
+<script src="task.js"></script>
+
+</body>
+</html>
