@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+
+    <book>
+        <title>Data Structures in C</title>
+        <author>Mark Allen Weiss</author>
+        <genre>Programming</genre>
+        <price>550</price>
+        <publish_date>2018-05-10</publish_date>
+    </book>
+
+    <book>
+        <title>Introduction to Algorithms</title>
+        <author>Thomas H. Cormen</author>
+        <genre>Programming</genre>
+        <price>750</price>
+        <publish_date>2015-07-15</publish_date>
+    </book>
+
+    <book>
+        <title>Database System Concepts</title>
+        <author>Abraham Silberschatz</author>
+        <genre>Database</genre>
+        <price>680</price>
+        <publish_date>2019-03-20</publish_date>
+    </book>
+
+    <book>
+        <title>Computer Networks</title>
+        <author>Andrew S. Tanenbaum</author>
+        <genre>Networking</genre>
+        <price>600</price>
+        <publish_date>2017-09-12</publish_date>
+    </book>
+
+    <book>
+        <title>Artificial Intelligence: A Modern Approach</title>
+        <author>Stuart Russell</author>
+        <genre>AI</genre>
+        <price>820</price>
+        <publish_date>2020-01-10</publish_date>
+    </book>
+
+    <book>
+        <title>Operating System Concepts</title>
+        <author>Abraham Silberschatz</author>
+        <genre>Operating Systems</genre>
+        <price>640</price>
+        <publish_date>2016-06-18</publish_date>
+    </book>
+
+    <book>
+        <title>Web Technologies</title>
+        <author>Jeffrey C. Jackson</author>
+        <genre>Web Development</genre>
+        <price>500</price>
+        <publish_date>2021-11-25</publish_date>
+    </book>
+
+    <book>
+        <title>Software Engineering</title>
+        <author>Ian Sommerville</author>
+        <genre>Software Engineering</genre>
+        <price>720</price>
+        <publish_date>2018-02-28</publish_date>
+    </book>
+
+</catalog>
