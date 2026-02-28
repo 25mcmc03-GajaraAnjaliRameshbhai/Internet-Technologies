@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Registration Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1ff;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+.form-container {
+    width: 420px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+input, select {
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: #6a5acd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5848c2;
+}
+
+.error {
+    color: red;
+    font-size: 13px;
+}
+
+.success {
+    color: green;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+
+<h2>Smart Registration Form</h2>
+
+<div class="form-container">
+    <form id="dynamicForm"></form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

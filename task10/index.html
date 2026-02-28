@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portfolio - Tab Plugin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+<h2>Student Portfolio</h2>
+
+<div class="tabs-container">
+
+    <ul id="portfolioTabs" class="tabs">
+        <li data-tab="home" tabindex="0">Home</li>
+        <li data-tab="projects" tabindex="0">Projects</li>
+        <li data-tab="contact" tabindex="0">Contact</li>
+    </ul>
+
+    <div class="tab-content" id="home">
+        <h3>Home</h3>
+        <p>Name: GAJARA ANJALI RAMESHBHAI</p>
+        <p>Course: Internet Technologies</p>
+        <p>This portfolio showcases my practical assignments.</p>
+    </div>
+
+    <div class="tab-content" id="projects">
+        <h3>Projects</h3>
+        <ul>
+            <li>Task 5 To-Do List</li>
+            <li>Task 7 Weather App</li>
+            <li>Task 8 XML to JSON Catalog</li>
+            <li>Task 9 Dynamic Registration Form</li>
+        </ul>
+    </div>
+
+    <div class="tab-content" id="contact">
+        <h3>Contact</h3>
+        <p>Email: 25mcmc03@uohyd.ac.in</p>
+        <p>Phone: 9012345678</p>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#portfolioTabs").customTabs({
+            activeClass: "active-tab",
+            animationSpeed: 400,
+            defaultTab: 0
+        });
+    });
+</script>
+
+</body>
+</html>
